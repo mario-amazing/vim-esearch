@@ -111,6 +111,7 @@
         - https://github.com/ipod825/vim-netranger.git
         - https://github.com/lambdalisue/fern.vim.git
         - https://github.com/Shougo/defx.nvim.git
+        - https://github.com/nvim-tree/nvim-tree.lua.git
         - https://github.com/roxma/nvim-yarp.git
         - https://github.com/roxma/vim-hug-neovim-rpc.git
 

@@ -7,6 +7,7 @@ set runtimepath+=~/.cache/esearch-dev/plugins/vim-dirvish/
 set runtimepath+=~/.cache/esearch-dev/plugins/vim-netranger/
 set runtimepath+=~/.cache/esearch-dev/plugins/fern.vim/
 set runtimepath+=~/.cache/esearch-dev/plugins/defx.nvim/
+set runtimepath+=~/.cache/esearch-dev/plugins/nvim-tree.lua/
 if has('nvim')
   " TODO
   " call remote#host#RegisterPlugin('python3', $HOME.'/.cache/esearch-dev/plugins/defx.nvim/rplugin/python3/defx', [

@@ -47,7 +47,7 @@ FEATURES OVERVIEW                                               *esearch-feature
 - Third party plugins integration:
   - vim-visual-multi (multiple cursors plugin) is guarded against editing
     filenames and line numbers.
-  - NerdTree, Dirvish, NetRanger, Fern, Defx file browsers can be used to
+  - NerdTree, Dirvish, NetRanger, Fern, Defx, nvim-tree file browsers can be used to
     specify search paths.
 
 ================================================================================
@@ -437,9 +437,10 @@ g:esearch.git_url({path}, {dir})                             *g:esearch.git_url(
 <
 g:esearch.filemanager_integration              *g:esearch.filemanager_integration*
         Flag to toggle integration with filemanagers (nerdtree, dirvish,
-        netranger, fern, defx). If withing a filemanager window, the plugin will
-        start the prompt using a directory under the cursor or using files and
-        directories selected in |Visual| mode.
+        netranger, fern, defx, nvim-tree). If withing a filemanager window, the
+        plugin will start the prompt using a directory under the cursor or using
+        files and directories selected in |Visual| mode (marked with
+        `api.marks.toggle()` in nvim-tree).
         Type: |Boolean|
         Default: 1
         Example:~
